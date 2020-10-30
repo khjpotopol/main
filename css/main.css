@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+.mainMoreBtn{
+    width:233px;;
+    height:58px;
+    position:absolute;
+    bottom:20%;
+    right:20%;
+    z-index:100;
+}
+
+.mainMoreBtn a{
+    width:191px;
+    height:58px;
+    line-height:58px;
+    background:url(../images/moreBox_main.png) no-repeat;
+    display:block;
+    position:absolute;
+    z-index:10;
+    color:#fff;
+    padding-left:42px;
+}
+
+.mainMoreBtnBg{
+    width:0;
+    position:absolute;
+    overflow:hidden;
+    transition:all 0.8s;
+}
+
+.mainMoreBtn:hover .mainMoreBtnBg{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+html,body,#wrap{
+    width:100%;
+    height:100%;
+}
+
+body{
+    background:#bfeada;
+}
+
+#wrap{
+    background:url(../images/mainImg.png) no-repeat left top;
+}
+
+.title h1{
+    width:647px;
+    height:115px;
+    background:url(../images/bg.png) no-repeat center center;
+    text-indent:-9999px;
+    position:absolute;
+    top:0;
+    bottom:0;
+    margin:auto;
+    left:16%;
+}
+
+
